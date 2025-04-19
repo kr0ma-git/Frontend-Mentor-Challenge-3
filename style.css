@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    width: auto;
+    min-width: 20vw;
+    height: auto;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px 20px;
+    border-radius: 14px;
+}
+
+#person-image {
+    object-fit: contain;
+    max-width: 100%;
+    width: 30%;
+    border-radius: 50px;
+    margin: 15px auto 0;
+}
+
+.person-information {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 15px;
+}
+
+.person-information h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#person-location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+#person-quote {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.social-bars {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.social-card {
+    margin: 0 auto 20px;    
+    width: 90%;
+    height: auto;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.social-card:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
